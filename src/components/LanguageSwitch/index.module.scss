@@ -1,0 +1,36 @@
+@use '@/styles/variables.scss' as *;
+
+.languageSwitch {
+  width: 100%;
+  padding: $spacing-xs;
+  display: flex;
+  gap: $spacing-xs;
+  border-radius: $radius-button;
+  background: $color-bg-hover;
+}
+
+.switchOption {
+  @include button-reset;
+  flex: 1;
+  min-width: 0;
+  height: $button-height-sm;
+  border: 1px solid transparent;
+  border-radius: $radius-button;
+  background: transparent;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  transition: all $transition-base;
+
+  &:active {
+    opacity: 0.85;
+    transform: scale(0.98);
+  }
+}
+
+.switchOptionActive {
+  border-color: $color-border;
+  background: $color-bg-card;
+  color: $color-primary;
+  font-weight: $font-weight-semibold;
+  box-shadow: $shadow-card;
+}

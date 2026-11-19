@@ -1,0 +1,503 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  min-height: 100vh;
+  padding: $spacing-lg;
+}
+
+.header,
+.detailTop,
+.wordItemTitle,
+.resultMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  margin-bottom: $spacing-lg;
+}
+
+.eyebrow {
+  display: block;
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  letter-spacing: 3rpx;
+}
+
+.title {
+  display: block;
+  margin-top: 4rpx;
+  font-size: $font-size-xxl;
+  font-weight: $font-weight-bold;
+}
+
+.addButton {
+  @include button-reset;
+  height: $button-height-sm;
+  margin: 0;
+  padding: 0 $spacing-md;
+  border-radius: $radius-button;
+  background: $color-primary;
+  color: $color-text-white;
+  font-size: $font-size-sm;
+  @include flex-center;
+}
+
+.searchBox {
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  margin-top: $spacing-md;
+  padding: 0 $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  background: $color-bg-card;
+}
+
+.searchIcon {
+  color: $color-text-tertiary;
+  font-size: $font-size-xl;
+}
+
+.searchInput {
+  min-width: 0;
+  height: 100%;
+  flex: 1;
+  font-size: $font-size-sm;
+}
+
+.searchPlaceholder {
+  color: $color-text-tertiary;
+}
+
+.clearSearch,
+.backButton {
+  @include button-reset;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: $color-primary;
+  font-size: $font-size-xs;
+}
+
+.filterScroll {
+  width: 100%;
+  margin: $spacing-md 0;
+  white-space: nowrap;
+}
+
+.filters {
+  display: inline-flex;
+  gap: $spacing-sm;
+}
+
+.filterButton {
+  @include button-reset;
+  width: auto;
+  height: 64rpx;
+  margin: 0;
+  padding: 0 $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $radius-round;
+  background: $color-bg-card;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  @include flex-center;
+}
+
+.filterActive {
+  border-color: $color-primary;
+  background: $color-primary;
+  color: $color-text-white;
+}
+
+.errorBanner {
+  margin-bottom: $spacing-md;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-accent-soft;
+  color: $color-error;
+  font-size: $font-size-sm;
+}
+
+.resultMeta {
+  margin-bottom: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+}
+
+.wordList {
+  overflow: hidden;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+}
+
+.wordItem {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+  padding: $spacing-md;
+  border-bottom: 1px solid $color-divider;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:active {
+    background: $color-bg-page;
+  }
+}
+
+.thumbnail,
+.thumbnailFallback {
+  width: 104rpx;
+  height: 104rpx;
+  flex: 0 0 104rpx;
+  border-radius: $radius-md;
+  background: $color-bg-hover;
+}
+
+.thumbnailFallback {
+  color: $color-primary;
+  font-size: $font-size-xl;
+  @include flex-center;
+}
+
+.wordItemBody {
+  min-width: 0;
+  flex: 1;
+}
+
+.wordItemTitle {
+  justify-content: flex-start;
+  gap: $spacing-sm;
+}
+
+.wordItemText {
+  overflow: hidden;
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.customBadge,
+.statusBadge {
+  flex-shrink: 0;
+  padding: 4rpx 12rpx;
+  border-radius: $radius-round;
+  background: $color-mint-soft;
+  color: $color-primary;
+  font-size: 20rpx;
+}
+
+.wordItemDefinition,
+.wordItemMeta {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wordItemDefinition {
+  margin-top: 6rpx;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+}
+
+.wordItemMeta {
+  margin-top: 6rpx;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+}
+
+.chevron {
+  color: $color-text-tertiary;
+  font-size: 40rpx;
+}
+
+.emptyState {
+  padding: 96rpx $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dashed $color-border;
+  border-radius: $radius-lg;
+}
+
+.emptyTitle {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+}
+
+.emptyText {
+  margin-top: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-sm;
+  text-align: center;
+}
+
+.emptyAction {
+  @include button-reset;
+  height: $button-height-sm;
+  margin-top: $spacing-lg;
+  padding: 0 $spacing-lg;
+  border: 1px solid $color-primary;
+  border-radius: $radius-button;
+  color: $color-primary;
+  font-size: $font-size-sm;
+  @include flex-center;
+}
+
+.detailScroll {
+  height: calc(100vh - 330rpx);
+}
+
+.detailCard {
+  margin-bottom: $spacing-lg;
+  overflow: hidden;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+  box-shadow: $shadow-card;
+}
+
+.detailTop {
+  padding: $spacing-md $spacing-lg;
+}
+
+.detailImage {
+  width: 100%;
+  height: 340rpx;
+  background: $color-bg-hover;
+}
+
+.detailBody {
+  padding: $spacing-lg;
+}
+
+.detailWord {
+  display: block;
+  font-size: 56rpx;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  overflow-wrap: anywhere;
+}
+
+.pronunciation {
+  display: block;
+  margin-top: $spacing-sm;
+  color: $color-primary;
+}
+
+.definitionList {
+  margin: $spacing-lg 0;
+  padding: $spacing-md 0;
+  border-top: 1px solid $color-divider;
+  border-bottom: 1px solid $color-divider;
+}
+
+.definitionItem {
+  display: flex;
+  align-items: flex-start;
+  gap: $spacing-md;
+  padding: $spacing-sm 0;
+}
+
+.definitionLabel {
+  width: 64rpx;
+  flex: 0 0 64rpx;
+  padding-top: 4rpx;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+}
+
+.definitionValue {
+  min-width: 0;
+  flex: 1;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  line-height: $line-height-loose;
+}
+
+.audioTabs {
+  display: flex;
+  gap: $spacing-sm;
+  margin-bottom: $spacing-sm;
+}
+
+.audioTab,
+.audioTabActive {
+  @include button-reset;
+  min-width: 0;
+  height: 64rpx;
+  flex: 1;
+  margin: 0;
+  border: 1px solid $color-border;
+  border-radius: $radius-button;
+  background: $color-bg-card;
+  color: $color-text-secondary;
+  font-size: $font-size-xs;
+  @include flex-center;
+}
+
+.audioTabActive {
+  border-color: $color-primary;
+  color: $color-primary;
+  background: $color-mint-soft;
+}
+
+.contentSection {
+  margin-top: $spacing-lg;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-bg-page;
+}
+
+.sectionLabel,
+.sectionText,
+.sectionTranslation {
+  display: block;
+}
+
+.sectionLabel {
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+}
+
+.sectionText {
+  margin-top: $spacing-sm;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-loose;
+}
+
+.sectionTranslation {
+  margin-top: $spacing-xs;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  line-height: $line-height-loose;
+}
+
+.detailActions {
+  display: flex;
+  gap: $spacing-md;
+  margin-top: $spacing-lg;
+}
+
+.editButton,
+.deleteButton,
+.relearnButton {
+  @include button-reset;
+  height: $button-height-md;
+  flex: 1;
+  margin: 0;
+  border-radius: $radius-button;
+  font-size: $font-size-sm;
+  @include flex-center;
+}
+
+.editButton,
+.relearnButton {
+  border: 1px solid $color-primary;
+  color: $color-primary;
+}
+
+.deleteButton {
+  border: 1px solid $color-accent;
+  color: $color-error;
+}
+
+.relearnButton {
+  width: 100%;
+  margin-top: $spacing-md;
+}
+
+.retryButton {
+  @include button-reset;
+  width: auto;
+  margin: $spacing-sm 0 0;
+  padding: 0;
+  background: transparent;
+  color: $color-error;
+  font-size: $font-size-xs;
+  text-decoration: underline;
+}
+
+.loadingState {
+  padding: 80rpx $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-sm;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: $spacing-lg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-md;
+}
+
+.pageButton {
+  @include button-reset;
+  width: auto;
+  height: $button-height-sm;
+  margin: 0;
+  padding: 0 $spacing-lg;
+  border: 1px solid $color-primary;
+  border-radius: $radius-button;
+  color: $color-primary;
+  font-size: $font-size-sm;
+  @include flex-center;
+
+  &[disabled] {
+    border-color: $color-border;
+    color: $color-text-tertiary;
+  }
+}
+
+.pageLabel {
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+}
+
+.detailImageFallback {
+  height: 280rpx;
+  padding: $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-md;
+  background: $color-mint-soft;
+  color: $color-primary;
+  font-size: $font-size-sm;
+}
+
+.detailFallbackWord {
+  max-width: 100%;
+  font-size: 56rpx;
+  font-weight: $font-weight-bold;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.detailMeta,
+.detailStudyState {
+  display: block;
+  margin-top: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  line-height: $line-height-loose;
+}

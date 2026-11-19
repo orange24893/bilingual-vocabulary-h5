@@ -1,0 +1,25 @@
+{
+  "ecdict": {
+    "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv",
+    "snapshot": "ecdict/ecdict.csv",
+    "attribution": "ECDICT, skywind3000/ECDICT",
+    "license_url": "https://github.com/skywind3000/ECDICT"
+  },
+  "awl": {
+    "url": "https://www.eapfoundation.com/vocab/academic/awllists/index.php",
+    "snapshot": "awl/awl-headwords.txt",
+    "attribution": "Academic Word List by Averil Coxhead, Victoria University of Wellington; headword table from EAP Foundation",
+    "license_url": "https://www.wgtn.ac.nz/lals/resources/academicwordlist/awl-headwords"
+  },
+  "topik": {
+    "url": "https://www.korean.go.kr/common/download.do?file_path=reportData&c_file_name=157339df-1904-443a-b1a9-d6d34578ba93.xlsx&o_file_name=2017%EB%85%84%20%EA%B5%AD%EC%A0%9C%20%ED%86%B5%EC%9A%A9%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%ED%91%9C%EC%A4%80%20%EA%B5%90%EC%9C%A1%EA%B3%BC%EC%A0%95%20%EC%A0%81%EC%9A%A9%20%EC%97%B0%EA%B5%AC(4%EB%8B%A8%EA%B3%84)%20%EC%96%B4%ED%9C%98,%20%EB%AC%B8%EB%B2%95%20%EB%93%B1%EA%B8%89%20%EB%AA%A9%EB%A1%9D_20180227_20201117%20%EC%88%98%EC%A0%95.xlsx",
+    "snapshot": "topik/topik-levels.xlsx",
+    "attribution": "National Institute of Korean Language, 2017 International Standard Korean Language Curriculum application research, vocabulary/grammar level list, 2020-11-17 revision",
+    "license_url": "https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=207&report_seq=932",
+    "license_note": "Public work free-use license; source attribution required. Verify the mark on the source page before redistribution."
+  },
+  "krdict": {
+    "documentation": "https://krdict.korean.go.kr/chn/openApi/openApiInfo",
+    "learner_dictionary": "https://krdict.korean.go.kr/m/chn/help?nation=chn"
+  }
+}

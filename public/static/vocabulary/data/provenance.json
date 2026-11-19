@@ -1,0 +1,54 @@
+{
+  "audioValidation": {
+    "maximumSeconds": 300,
+    "minimumBytes": 500,
+    "minimumMaxVolumeDb": -45,
+    "minimumMeanVolumeDb": -55,
+    "minimumSeconds": 0.2
+  },
+  "generatorModel": "deepseek-chat",
+  "snapshots": {
+    "awl": {
+      "bytes": 5295,
+      "path": ".local/vocabulary/sources/awl/awl-headwords.txt",
+      "sha256": "f33999a931635cf3b905138bacbfdd95c39f7a43b619aaa10c64cad921277fe0",
+      "url": "https://www.eapfoundation.com/vocab/academic/awllists/index.php"
+    },
+    "ecdict": {
+      "bytes": 66009548,
+      "path": ".local/vocabulary/sources/ecdict/ecdict.csv",
+      "sha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+      "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv"
+    },
+    "topik": {
+      "bytes": 701945,
+      "path": ".local/vocabulary/sources/topik/topik-levels.xlsx",
+      "sha256": "2cde28ab90e04728513e65ef5df4baaa400a4055fe2abd1856889cb983c4c3ac",
+      "url": "https://www.korean.go.kr/common/download.do?file_path=reportData&c_file_name=157339df-1904-443a-b1a9-d6d34578ba93.xlsx&o_file_name=2017%EB%85%84%20%EA%B5%AD%EC%A0%9C%20%ED%86%B5%EC%9A%A9%20%ED%95%9C%EA%B5%AD%EC%96%B4%20%ED%91%9C%EC%A4%80%20%EA%B5%90%EC%9C%A1%EA%B3%BC%EC%A0%95%20%EC%A0%81%EC%9A%A9%20%EC%97%B0%EA%B5%AC(4%EB%8B%A8%EA%B3%84)%20%EC%96%B4%ED%9C%98,%20%EB%AC%B8%EB%B2%95%20%EB%93%B1%EA%B8%89%20%EB%AA%A9%EB%A1%9D_20180227_20201117%20%EC%88%98%EC%A0%95.xlsx"
+    }
+  },
+  "sources": {
+    "awl": {
+      "attribution": "Academic Word List by Averil Coxhead, Victoria University of Wellington; headword table from EAP Foundation",
+      "licenseNote": "",
+      "licenseUrl": "https://www.wgtn.ac.nz/lals/resources/academicwordlist/awl-headwords"
+    },
+    "ecdict": {
+      "attribution": "ECDICT, skywind3000/ECDICT",
+      "licenseNote": "",
+      "licenseUrl": "https://github.com/skywind3000/ECDICT"
+    },
+    "topik": {
+      "attribution": "National Institute of Korean Language, 2017 International Standard Korean Language Curriculum application research, vocabulary/grammar level list, 2020-11-17 revision",
+      "licenseNote": "Public work free-use license; source attribution required. Verify the mark on the source page before redistribution.",
+      "licenseUrl": "https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=207&report_seq=932"
+    }
+  },
+  "tts": {
+    "provider": "edge-tts",
+    "voices": {
+      "en": "en-US-JennyNeural",
+      "ko": "ko-KR-SunHiNeural"
+    }
+  }
+}

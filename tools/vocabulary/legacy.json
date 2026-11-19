@@ -1,0 +1,10 @@
+[
+  {"language":"en","normalizedText":"negligible","matchPhrase":"a negligible amount","id":"builtin-en-negligible"},
+  {"language":"en","normalizedText":"resilient","matchPhrase":"a resilient economy","id":"builtin-en-resilient"},
+  {"language":"en","normalizedText":"ambiguous","matchPhrase":"an ambiguous statement","id":"builtin-en-ambiguous"},
+  {"language":"en","normalizedText":"scrutinize","matchPhrase":"scrutinize the evidence","id":"builtin-en-scrutinize"},
+  {"language":"ko","normalizedText":"사과","matchPhrase":"사과를 먹다","id":"builtin-ko-sagwa"},
+  {"language":"ko","normalizedText":"시간","matchPhrase":"시간이 있다","id":"builtin-ko-sigan"},
+  {"language":"ko","normalizedText":"약속","matchPhrase":"약속을 지키다","id":"builtin-ko-yaksok"},
+  {"language":"ko","normalizedText":"공부하다","matchPhrase":"한국어를 공부하다","id":"builtin-ko-gongbuhada"}
+]

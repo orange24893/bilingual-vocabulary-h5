@@ -1,0 +1,214 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  min-height: 100vh;
+  padding: 56rpx $spacing-lg 48rpx;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40rpx;
+}
+
+.kicker {
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  letter-spacing: 4rpx;
+}
+
+.title {
+  margin-top: $spacing-sm;
+  font-size: 56rpx;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  letter-spacing: -2rpx;
+}
+
+.subtitle {
+  margin-top: $spacing-md;
+  color: $color-text-secondary;
+  font-size: $font-size-md;
+}
+
+.errorBanner {
+  margin-bottom: $spacing-md;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-accent-soft;
+  color: $color-error;
+  font-size: $font-size-sm;
+}
+
+.languageCards {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+}
+
+.languageCard {
+  padding: $spacing-lg;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+  box-shadow: $shadow-card;
+}
+
+.cardHeader,
+.languageIdentity {
+  display: flex;
+  align-items: center;
+}
+
+.cardHeader {
+  justify-content: space-between;
+  gap: $spacing-md;
+}
+
+.languageIdentity {
+  min-width: 0;
+  gap: $spacing-md;
+}
+
+.languageCode {
+  width: 80rpx;
+  height: 80rpx;
+  flex: 0 0 80rpx;
+  border-radius: $radius-md;
+  background: $color-primary;
+  color: $color-text-white;
+  font-size: $font-size-md;
+  font-weight: $font-weight-bold;
+  letter-spacing: 2rpx;
+  @include flex-center;
+}
+
+.eyebrow,
+.languageName {
+  display: block;
+}
+
+.eyebrow {
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  letter-spacing: 2rpx;
+}
+
+.languageName {
+  margin-top: 4rpx;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+}
+
+.streakBadge {
+  flex-shrink: 0;
+  padding: 12rpx 20rpx;
+  border-radius: $radius-round;
+  background: $color-sand-soft;
+  color: $color-text-secondary;
+  font-size: $font-size-xs;
+}
+
+.languageDescription {
+  display: block;
+  margin-top: $spacing-lg;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+}
+
+.metrics {
+  display: flex;
+  align-items: stretch;
+  margin: $spacing-lg 0;
+  padding: $spacing-lg 0;
+  border-top: 1px solid $color-divider;
+  border-bottom: 1px solid $color-divider;
+}
+
+.metric {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $spacing-xs;
+}
+
+.metricDivider {
+  width: 1px;
+  background: $color-divider;
+}
+
+.metricValue,
+.metricValueAccent {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+}
+
+.metricValueAccent {
+  color: $color-accent;
+}
+
+.metricUnit {
+  color: $color-text-tertiary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-normal;
+}
+
+.metricLabel {
+  color: $color-text-secondary;
+  font-size: $font-size-xs;
+}
+
+.studyButton {
+  @include button-reset;
+  width: 100%;
+  height: $button-height-lg;
+  border-radius: $radius-button;
+  background: $color-primary;
+  color: $color-text-white;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+  @include flex-center;
+
+  &:active {
+    background: $color-primary-dark;
+    transform: scale(0.99);
+  }
+
+  &[disabled] {
+    background: $color-bg-hover;
+    color: $color-text-tertiary;
+  }
+}
+
+.progressNote {
+  display: block;
+  margin-top: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  text-align: center;
+}
+
+.footerNote {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+  margin-top: 40rpx;
+  padding: 0 $spacing-sm;
+}
+
+.footerTitle {
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+}
+
+.footerText {
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  line-height: $line-height-loose;
+}

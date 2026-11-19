@@ -1,0 +1,1464 @@
+[
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "aftereffect; lingering symptom",
+    "definitionKo": "어떤 일이 끝난 뒤에 남는 영향이나 증상.",
+    "definitionZh": "后遗症；遗留症状",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-99be40f40dcce4224b39.example.b3e066f93f0f1635.mp3",
+      "text": "수술 후 후유증으로 몇 달 동안 통증이 계속되었다.",
+      "translationZh": "手术后遗症导致疼痛持续了几个月。"
+    },
+    "id": "builtin-ko-99be40f40dcce4224b39",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "후유증",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-99be40f40dcce4224b39.phrase.e8ee4ea44d046f99.mp3",
+      "text": "사고 후유증",
+      "translationZh": "事故后遗症"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602547,
+    "pronunciation": "후유증 (hu-yu-jeung)",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "후유증",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "후유증"
+      }
+    ],
+    "text": "후유증",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-99be40f40dcce4224b39.word.8f62b0a3458d8c5d.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "a person who succeeds another in a position or role; successor",
+    "definitionKo": "다른 사람의 뒤를 이어 그 직위나 역할을 맡는 사람",
+    "definitionZh": "接替某人职位或角色的人；继任者",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-20b2bfb664ca95fabb56.example.e0394ec1ac6adc8e.mp3",
+      "text": "신임 사장은 후임에게 업무를 인수인계했다.",
+      "translationZh": "新任总经理向继任者交接了工作。"
+    },
+    "id": "builtin-ko-20b2bfb664ca95fabb56",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "후임",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-20b2bfb664ca95fabb56.phrase.b1d505069ba32a11.mp3",
+      "text": "후임 감독",
+      "translationZh": "继任导演"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602548,
+    "pronunciation": "hu-im",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "후임",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "후임"
+      }
+    ],
+    "text": "후임",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-20b2bfb664ca95fabb56.word.ac5a8e06c18ee457.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "reverse; backing up; moving backward (of a vehicle)",
+    "definitionKo": "차량이 뒤로 움직이는 것.",
+    "definitionZh": "倒车；后退（车辆向后行驶）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-7bedb1df5cc2d531061a.example.a4ca8cb769c8cda5.mp3",
+      "text": "주차장이 좁아서 후진을 조심해야 했다.",
+      "translationZh": "停车场很窄，所以倒车时得小心。"
+    },
+    "id": "builtin-ko-7bedb1df5cc2d531061a",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "후진",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-7bedb1df5cc2d531061a.phrase.0b0e5df6b0e80556.mp3",
+      "text": "후진 주차",
+      "translationZh": "倒车入库"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602549,
+    "pronunciation": "후진 (hujin)",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "후진",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "후진"
+      }
+    ],
+    "text": "후진",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-7bedb1df5cc2d531061a.word.0c0fa45a68e87ddd.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "retreat; falling back",
+    "definitionKo": "뒤로 물러남. 또는 적이나 상대에게 밀려 물러남.",
+    "definitionZh": "后退；撤退",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-5e992d58d0b45bd6bc0c.example.aae2e443d4d17257.mp3",
+      "text": "군대는 전략적 후퇴를 결정했다.",
+      "translationZh": "军队决定进行战略撤退。"
+    },
+    "id": "builtin-ko-5e992d58d0b45bd6bc0c",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "후퇴",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-5e992d58d0b45bd6bc0c.phrase.a832da2d0db3d7c2.mp3",
+      "text": "작전상 후퇴",
+      "translationZh": "战略上的撤退"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602550,
+    "pronunciation": "후퇴",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "후퇴",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "후퇴"
+      }
+    ],
+    "text": "후퇴",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-5e992d58d0b45bd6bc0c.word.e8873c26f78ef79a.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to skim through; to glance over; to scan quickly",
+    "definitionKo": "빠르게 쓸어보거나 대강 살펴보다",
+    "definitionZh": "浏览；扫视；快速翻阅",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-4b3a21fb6f3f47cf19a0.example.b8fa7fda6f3d751d.mp3",
+      "text": "시험 전에 교과서를 한 번 훑어보았다.",
+      "translationZh": "考试前我把课本浏览了一遍。"
+    },
+    "id": "builtin-ko-4b3a21fb6f3f47cf19a0",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "훑다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-4b3a21fb6f3f47cf19a0.phrase.52e415be54a03786.mp3",
+      "text": "대충 훑다",
+      "translationZh": "大致浏览"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602551,
+    "pronunciation": "훑따",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "훑다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "훑다"
+      }
+    ],
+    "text": "훑다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-4b3a21fb6f3f47cf19a0.word.b14e1350e48dbcc8.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to skim through; to glance over",
+    "definitionKo": "대강 훑어서 읽거나 살펴보다.",
+    "definitionZh": "浏览；略读；扫视",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-356a096603d6e9c46ecd.example.0bfe1b84205b2cc3.mp3",
+      "text": "시험 전에 교과서를 훑어보았다.",
+      "translationZh": "考试前我浏览了一遍教科书。"
+    },
+    "id": "builtin-ko-356a096603d6e9c46ecd",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "훑어보다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-356a096603d6e9c46ecd.phrase.e7472b7240d04a74.mp3",
+      "text": "책을 훑어보다",
+      "translationZh": "浏览书本"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602552,
+    "pronunciation": "훑어보다 [훌터보다]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "훑어보다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "훑어보다"
+      }
+    ],
+    "text": "훑어보다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-356a096603d6e9c46ecd.word.c9186aa7984a42fb.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to steal a glance; to peek furtively",
+    "definitionKo": "남이 모르게 가만히 엿보다",
+    "definitionZh": "偷看；窥视",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a479cfa5cd9bc796b7e5.example.540ce9a5aa065a51.mp3",
+      "text": "동생이 내 일기를 훔쳐보는 것을 보고 화가 났다.",
+      "translationZh": "看到弟弟偷看我的日记，我很生气。"
+    },
+    "id": "builtin-ko-a479cfa5cd9bc796b7e5",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "훔쳐보다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a479cfa5cd9bc796b7e5.phrase.5894cc2a3be7eceb.mp3",
+      "text": "일기를 훔쳐보다",
+      "translationZh": "偷看日记"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602553,
+    "pronunciation": "hum-cheo-bo-da",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "훔쳐보다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "훔쳐보다"
+      }
+    ],
+    "text": "훔쳐보다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-a479cfa5cd9bc796b7e5.word.97152abd55ad4509.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be bright and clear, to be wide open and luminous",
+    "definitionKo": "밝고 환하게 트여 있는 상태이다",
+    "definitionZh": "明亮而开阔的，豁然明朗的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-23dd1ae5214809ce1c92.example.06f4e115f5f2cdf2.mp3",
+      "text": "동이 트자 하늘이 훤하게 밝아 왔다.",
+      "translationZh": "天一亮，天空就变得豁然明亮起来。"
+    },
+    "id": "builtin-ko-23dd1ae5214809ce1c92",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "훤하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-23dd1ae5214809ce1c92.phrase.99a755f6931d5fc1.mp3",
+      "text": "불이 훤하다",
+      "translationZh": "火光通明"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602554,
+    "pronunciation": "훤하다 [hwon-ha-da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "훤하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "훤하다"
+      }
+    ],
+    "text": "훤하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-23dd1ae5214809ce1c92.word.922c5e9b800a57ce.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to bend, to curve; to be bent out of shape",
+    "definitionKo": "물체가 구부러지거나 굽어지다.",
+    "definitionZh": "弯曲；弯折",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-03ecc180cd19bd77c52f.example.7090012d4a4bddc2.mp3",
+      "text": "오래 무거운 짐을 들었더니 허리가 휘었다.",
+      "translationZh": "搬了很久的重物，腰都弯了。"
+    },
+    "id": "builtin-ko-03ecc180cd19bd77c52f",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휘다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-03ecc180cd19bd77c52f.phrase.b03d7a26e1b5ae6f.mp3",
+      "text": "허리가 휘다",
+      "translationZh": "腰弯了；闪了腰"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602555,
+    "pronunciation": "hwi-da",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휘다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휘다"
+      }
+    ],
+    "text": "휘다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-03ecc180cd19bd77c52f.word.90827ef9e42b1bcb.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to swing or brandish (a tool, weapon, or one's arm) in a wide arc",
+    "definitionKo": "도구나 무기, 팔 등을 크게 휘저어 움직이다",
+    "definitionZh": "挥舞，挥动（工具、武器或手臂）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-fa58c2c501fd3c8a449c.example.07555ecbabf13826.mp3",
+      "text": "그는 화가 나서 주먹을 휘두르며 소리쳤다.",
+      "translationZh": "他生气地挥舞着拳头大喊。"
+    },
+    "id": "builtin-ko-fa58c2c501fd3c8a449c",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휘두르다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-fa58c2c501fd3c8a449c.phrase.63f05258498532c5.mp3",
+      "text": "칼을 휘두르다",
+      "translationZh": "挥舞刀剑"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602556,
+    "pronunciation": "휘두르다 [hwi.du.rɯ.da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휘두르다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휘두르다"
+      }
+    ],
+    "text": "휘두르다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-fa58c2c501fd3c8a449c.word.bdecae2771df6683.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be caught up in or swept into a situation, conflict, or current, often against one's will",
+    "definitionKo": "어떤 일이나 사건, 분쟁 따위에 자신의 의지와 상관없이 끌려 들어가다",
+    "definitionZh": "被卷入、牵连进（事件、纷争、漩涡等），常非出于本意",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-2fb6acdc893b83393a0e.example.dd28483b80e52db7.mp3",
+      "text": "그는 아무 관련도 없는데 옆집 이웃들의 싸움에 휘말려 경찰서까지 가게 되었다.",
+      "translationZh": "他明明毫无关系，却被卷进了邻居们的争吵，最后还去了警察局。"
+    },
+    "id": "builtin-ko-2fb6acdc893b83393a0e",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휘말리다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-2fb6acdc893b83393a0e.phrase.dc209fe5525647de.mp3",
+      "text": "싸움에 휘말리다",
+      "translationZh": "卷入打斗（争执）"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602557,
+    "pronunciation": "휘말리다 [hwi.mal.li.da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휘말리다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휘말리다"
+      }
+    ],
+    "text": "휘말리다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-2fb6acdc893b83393a0e.word.e338bd7421b57282.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to stir or whisk a liquid or mixture vigorously",
+    "definitionKo": "액체나 혼합물을 세게 젓거나 휘저어 섞다",
+    "definitionZh": "搅拌，搅动（液体或混合物）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-6c73e005f4cc80356750.example.17a8285ddf21fc30.mp3",
+      "text": "요리사는 냄비에 있는 된장찌개를 나무 주걱으로 휘저었다.",
+      "translationZh": "厨师用木勺搅拌了锅里的味噌汤。"
+    },
+    "id": "builtin-ko-6c73e005f4cc80356750",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휘젓다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-6c73e005f4cc80356750.phrase.7f967f9e9905c4f6.mp3",
+      "text": "국을 휘젓다",
+      "translationZh": "搅拌汤"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602558,
+    "pronunciation": "hwi-jeot-da",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휘젓다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휘젓다"
+      }
+    ],
+    "text": "휘젓다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-6c73e005f4cc80356750.word.6717bd21b5949f14.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be enveloped or surrounded by something (e.g., fire, darkness, emotions)",
+    "definitionKo": "어떤 것이 주위를 둘러싸서 가득 차다",
+    "definitionZh": "被包围，被笼罩",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-2b86087bbadf51d6bb9c.example.fbba9d94de26aa2c.mp3",
+      "text": "산불로 인해 마을이 불길에 휩싸였다.",
+      "translationZh": "由于山火，村庄被火焰包围了。"
+    },
+    "id": "builtin-ko-2b86087bbadf51d6bb9c",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휩싸이다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-2b86087bbadf51d6bb9c.phrase.ccd9902ca5358c39.mp3",
+      "text": "불길에 휩싸이다",
+      "translationZh": "被火焰包围"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602559,
+    "pronunciation": "휩싸이다 [휩싸이다]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휩싸이다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휩싸이다"
+      }
+    ],
+    "text": "휩싸이다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-2b86087bbadf51d6bb9c.word.66b5e7a1422b45d0.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to sweep through; to sweep away; to be swept up in",
+    "definitionKo": "세차게 휩쓸어 지나가거나 어떤 분위기나 상황에 정신없이 빠져들게 되다",
+    "definitionZh": "席卷；横扫；被卷入",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-b2351238cb7c024153de.example.8aab761d33d883b3.mp3",
+      "text": "거센 파도에 휩쓸려 작은 배가 먼바다로 떠내려갔다.",
+      "translationZh": "小船被汹涌的波浪卷走，漂向了远海。"
+    },
+    "id": "builtin-ko-b2351238cb7c024153de",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휩쓸다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-b2351238cb7c024153de.phrase.cef444ac2adde6b4.mp3",
+      "text": "태풍이 휩쓸다",
+      "translationZh": "台风席卷而过"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602560,
+    "pronunciation": "휩쓸다 [휩쓸다]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휩쓸다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휩쓸다"
+      }
+    ],
+    "text": "휩쓸다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-b2351238cb7c024153de.word.bae6007f5a7b6341.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be swept away (by); to be carried along (by a current, wind, or situation)",
+    "definitionKo": "물이나 바람, 또는 어떤 상황이나 분위기에 휩싸여 마음대로 움직이거나 끌려가게 되다",
+    "definitionZh": "被卷走；被（水流、风或形势）席卷、裹挟",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-43023155516ebe83620c.example.cbd3b9ccdd96c24b.mp3",
+      "text": "거센 파도에 휩쓸려 바위에서 멀리 떠내려갔다.",
+      "translationZh": "被汹涌的波涛卷走，从岩石边漂到了很远的地方。"
+    },
+    "id": "builtin-ko-43023155516ebe83620c",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휩쓸리다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-43023155516ebe83620c.phrase.a254431153614eaf.mp3",
+      "text": "강풍에 휩쓸리다",
+      "translationZh": "被强风卷走"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602561,
+    "pronunciation": "휘쓸리다 [hwis·sseul·li·da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휩쓸리다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휩쓸리다"
+      }
+    ],
+    "text": "휩쓸리다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-43023155516ebe83620c.word.5e1b681e6492824e.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "portable; designed to be carried and used easily",
+    "definitionKo": "가지고 다니며 쓰기 편하도록 만든 것",
+    "definitionZh": "便携的；便于随身携带使用的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-b0900b4ad40de60e4342.example.cfb5ce06b0a0408d.mp3",
+      "text": "여행할 때 휴대용 충전기를 꼭 챙겨요.",
+      "translationZh": "旅行的时候一定要带上便携式充电器。"
+    },
+    "id": "builtin-ko-b0900b4ad40de60e4342",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휴대용",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-b0900b4ad40de60e4342.phrase.5a126f18c2d2c4ce.mp3",
+      "text": "휴대용 녹음기",
+      "translationZh": "便携式录音机"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602562,
+    "pronunciation": "hyu-dae-yong",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휴대용",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휴대용"
+      }
+    ],
+    "text": "휴대용",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-b0900b4ad40de60e4342.word.2840c9c1535f5455.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "a day off from work or business; closure (of a shop, office, etc.)",
+    "definitionKo": "일이나 영업을 하지 않고 쉬는 날.",
+    "definitionZh": "休息日；停业；放假",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-67bc4009d4c31bf27d17.example.bb6e3816e5b06e17.mp3",
+      "text": "오늘은 가게 휴무일이라 문이 닫혀 있었어요.",
+      "translationZh": "今天商店休息，所以门关着。"
+    },
+    "id": "builtin-ko-67bc4009d4c31bf27d17",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휴무",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-67bc4009d4c31bf27d17.phrase.a6b86afaeece2f94.mp3",
+      "text": "임시 휴무",
+      "translationZh": "临时休息"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602563,
+    "pronunciation": "hyumu",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휴무",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휴무"
+      }
+    ],
+    "text": "휴무",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-67bc4009d4c31bf27d17.word.adbb19b9e4f71894.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "armistice; ceasefire",
+    "definitionKo": "교전을 일시적으로 멈추는 일. 또는 그런 상태.",
+    "definitionZh": "停战；休战",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-29a3854d597377d5a699.example.31951424fcbbf16b.mp3",
+      "text": "양국은 오랜 협상 끝에 휴전에 합의했다.",
+      "translationZh": "两国经过长时间谈判后同意停战。"
+    },
+    "id": "builtin-ko-29a3854d597377d5a699",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휴전",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-29a3854d597377d5a699.phrase.1e6b6a06ad3adf65.mp3",
+      "text": "휴전 상태",
+      "translationZh": "停战状态"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602564,
+    "pronunciation": "hyu-jeon",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휴전",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휴전"
+      }
+    ],
+    "text": "휴전",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-29a3854d597377d5a699.word.14144626c072b646.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "leave of absence from work",
+    "definitionKo": "직장에서 일정 기간 동안 직무를 쉬는 것",
+    "definitionZh": "停职；休假",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-29c074612aa72ae23943.example.46fed546587487d1.mp3",
+      "text": "그는 건강 상의 이유로 휴직을 신청했다.",
+      "translationZh": "他因健康原因申请了停职。"
+    },
+    "id": "builtin-ko-29c074612aa72ae23943",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "휴직",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-29c074612aa72ae23943.phrase.68b6b5bcc6c9bcef.mp3",
+      "text": "육아 휴직",
+      "translationZh": "育儿休假"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602565,
+    "pronunciation": "hyu.jik",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "휴직",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "휴직"
+      }
+    ],
+    "text": "휴직",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-29c074612aa72ae23943.word.a60257d4d13367a5.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be ominous; to be inauspicious; to be bad (of a sign or omen)",
+    "definitionKo": "징조나 운세가 좋지 않고 나쁘다",
+    "definitionZh": "不吉利的；凶险的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-847a6e0812b0a98c6d46.example.f910f7bfea1cb9ed.mp3",
+      "text": "아침부터 까치가 울어서 오늘은 왠지 흉한 일이 생길 것 같았다.",
+      "translationZh": "从早上开始就有喜鹊在叫，总觉得今天会有什么不吉利的事情发生。"
+    },
+    "id": "builtin-ko-847a6e0812b0a98c6d46",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흉하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-847a6e0812b0a98c6d46.phrase.ff8b0288909d32dc.mp3",
+      "text": "점괘가 흉하다",
+      "translationZh": "卦象不吉利"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602566,
+    "pronunciation": "흉하다 [흉하다]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흉하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흉하다"
+      }
+    ],
+    "text": "흉하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-847a6e0812b0a98c6d46.word.714315140e9f697a.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to sob; to weep with suppressed sounds",
+    "definitionKo": "소리를 억누르며 울다",
+    "definitionZh": "抽泣；低声哭泣",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-0f76f12e08858caedb70.example.5fa60c9d0cdabeae.mp3",
+      "text": "그녀는 조용히 흐느끼며 전화를 끊었다.",
+      "translationZh": "她低声抽泣着挂断了电话。"
+    },
+    "id": "builtin-ko-0f76f12e08858caedb70",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흐느끼다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-0f76f12e08858caedb70.phrase.164be65b6dccb91f.mp3",
+      "text": "흐느끼는 소리",
+      "translationZh": "抽泣的声音"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602567,
+    "pronunciation": "heu-neu-ki-da",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흐느끼다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흐느끼다"
+      }
+    ],
+    "text": "흐느끼다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-0f76f12e08858caedb70.word.c8811f062ddf22aa.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "a surplus; a favorable balance (of income over expenditure)",
+    "definitionKo": "수입이 지출보다 많아 남는 이익이나 차액.",
+    "definitionZh": "盈余；顺差（收入大于支出）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-245449f19ec8e38a7984.example.32e1f368089d1c01.mp3",
+      "text": "올해 회사는 수출 증가에 힘입어 큰 폭의 흑자를 기록했다.",
+      "translationZh": "今年公司得益于出口增长，实现了大幅盈余。"
+    },
+    "id": "builtin-ko-245449f19ec8e38a7984",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흑자",
+    "partOfSpeech": "명사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-245449f19ec8e38a7984.phrase.fe642000263dc64b.mp3",
+      "text": "흑자를 내다",
+      "translationZh": "实现盈余；创造顺差"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602568,
+    "pronunciation": "흑짜 (heuk.ja)",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흑자",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흑자"
+      }
+    ],
+    "text": "흑자",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-245449f19ec8e38a7984.word.2ac801ad478621a4.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to glance sideways (especially with a sharp or displeased look)",
+    "definitionKo": "눈을 옆으로 돌려 흘겨보거나 째려보다.",
+    "definitionZh": "斜视，侧目而视（常带不满或锐利的眼神）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-c7ce715d21b4180acde2.example.8e2a106e06f51bff.mp3",
+      "text": "그는 화가 난 듯 나를 흘기며 자리를 떴다.",
+      "translationZh": "他好像生气了，斜眼瞪了我一眼就离开了座位。"
+    },
+    "id": "builtin-ko-c7ce715d21b4180acde2",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흘기다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-c7ce715d21b4180acde2.phrase.aca980a8741de51a.mp3",
+      "text": "눈을 흘기다",
+      "translationZh": "斜眼瞪，侧目而视"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602569,
+    "pronunciation": "흘기다 [heul-gi-da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흘기다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흘기다"
+      }
+    ],
+    "text": "흘기다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-c7ce715d21b4180acde2.word.f229a86d9042c303.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to flow into; to trickle in",
+    "definitionKo": "물이나 액체가 흘러서 안으로 들어가다",
+    "definitionZh": "流入；流进",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-82ac76057116a4a5c0ee.example.b06afa4f495b76ef.mp3",
+      "text": "강물이 결국 바다로 흘러들었다.",
+      "translationZh": "河水最终流入了大海。"
+    },
+    "id": "builtin-ko-82ac76057116a4a5c0ee",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흘러들다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-82ac76057116a4a5c0ee.phrase.03fe05a62bed144a.mp3",
+      "text": "바다로 흘러들다",
+      "translationZh": "流入大海"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602570,
+    "pronunciation": "heul-leo-deul-da",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흘러들다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흘러들다"
+      }
+    ],
+    "text": "흘러들다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-82ac76057116a4a5c0ee.word.7b5a94679db50ef8.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "as if; just like; seemingly (used to indicate that something closely resembles something else)",
+    "definitionKo": "어떤 것이 다른 것과 거의 같다고 비유할 때 쓰는 말",
+    "definitionZh": "仿佛；好像；宛如（表示某事物与另一事物非常相似）",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a7202d3bf32b9b03fad4.example.306487e230f19e73.mp3",
+      "text": "그의 눈빛은 흡사 얼어붙은 호수처럼 차가웠다.",
+      "translationZh": "他的眼神冷得像结冰的湖面一样。"
+    },
+    "id": "builtin-ko-a7202d3bf32b9b03fad4",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흡사",
+    "partOfSpeech": "부사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a7202d3bf32b9b03fad4.phrase.960f3af07ba0c923.mp3",
+      "text": "흡사 짐승 같다",
+      "translationZh": "宛如野兽一般"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602571,
+    "pronunciation": "heup-sa",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흡사",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흡사"
+      }
+    ],
+    "text": "흡사",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-a7202d3bf32b9b03fad4.word.d6c775b4a39a2587.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "in a wasteful and self-indulgent manner; spending money or resources recklessly without restraint",
+    "definitionKo": "돈이나 물건을 아끼지 않고 함부로 펑펑 쓰는 모양",
+    "definitionZh": "挥霍无度地；大手大脚地；铺张浪费地",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-36f69f4f6983c3cc16e0.example.dd40d16585bb61cc.mp3",
+      "text": "그는 매달 월급을 받자마자 흥청망청 써서 늘 저축할 돈이 없다.",
+      "translationZh": "他每个月一发工资就挥霍无度，所以总是没有钱储蓄。"
+    },
+    "id": "builtin-ko-36f69f4f6983c3cc16e0",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "흥청망청",
+    "partOfSpeech": "부사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-36f69f4f6983c3cc16e0.phrase.72b08c73ec6d52bb.mp3",
+      "text": "흥청망청 쓰다",
+      "translationZh": "挥霍无度地花钱；大手大脚地花钱"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602572,
+    "pronunciation": "heung-cheong-mang-cheong",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "흥청망청",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "흥청망청"
+      }
+    ],
+    "text": "흥청망청",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-36f69f4f6983c3cc16e0.word.21b14cb102ff16af.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be rare; to be uncommon",
+    "definitionKo": "보기 드물고 귀하다",
+    "definitionZh": "稀有的；罕见的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-6b9972a97fe45f545858.example.ff9244977e2d02e8.mp3",
+      "text": "이 박물관에는 희귀한 유물이 많이 전시되어 있다.",
+      "translationZh": "这座博物馆里展出了许多稀有的文物。"
+    },
+    "id": "builtin-ko-6b9972a97fe45f545858",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "희귀하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-6b9972a97fe45f545858.phrase.8fba828e88572bf3.mp3",
+      "text": "희귀한 보석",
+      "translationZh": "稀有的宝石"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602573,
+    "pronunciation": "히귀하다",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "희귀하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "희귀하다"
+      }
+    ],
+    "text": "희귀하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-6b9972a97fe45f545858.word.a413f259a2c7e2b7.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be faint, dim, blurry; to be vague or hazy",
+    "definitionKo": "빛이나 소리, 기억 따위가 또렷하지 않고 어렴풋하다",
+    "definitionZh": "模糊的；微弱的；隐约的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-83d6c2fafe22e5479662.example.35042a742ee18534.mp3",
+      "text": "오래전 일이라 그때 상황이 희미하지만 그래도 그날의 기분은 잊을 수 없다.",
+      "translationZh": "因为是很久以前的事，当时的情况很模糊，但那天的心情还是无法忘记。"
+    },
+    "id": "builtin-ko-83d6c2fafe22e5479662",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "희미하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-83d6c2fafe22e5479662.phrase.17cb9447ac603466.mp3",
+      "text": "기억이 희미하다",
+      "translationZh": "记忆模糊"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602574,
+    "pronunciation": "히미하다",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "희미하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "희미하다"
+      }
+    ],
+    "text": "희미하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-83d6c2fafe22e5479662.word.ee8319cc180fe993.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be scarce, rare, or very unlikely",
+    "definitionKo": "아주 적거나 드물어 가능성이 낮다",
+    "definitionZh": "稀薄；稀少，可能性很小",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-4cb28a0e832663be3f21.example.f4e92ce385d47016.mp3",
+      "text": "그런 일이 다시 일어날 가능성은 희박하다.",
+      "translationZh": "那种事情再次发生的可能性很小。"
+    },
+    "id": "builtin-ko-4cb28a0e832663be3f21",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "희박하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-4cb28a0e832663be3f21.phrase.059b5ded56727db3.mp3",
+      "text": "가능성이 희박하다",
+      "translationZh": "可能性很小"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602575,
+    "pronunciation": "히박하다",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "희박하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "희박하다"
+      }
+    ],
+    "text": "희박하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-4cb28a0e832663be3f21.word.92bd2e7ae09228ad.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be strange, odd, or unusual in a peculiar way",
+    "definitionKo": "매우 드물고 이상하여 신기한 데가 있다",
+    "definitionZh": "稀奇古怪的；少见的",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-379395019d3a28511580.example.9431d8179b5d49b6.mp3",
+      "text": "그런 희한한 소문은 처음 들어 봐요.",
+      "translationZh": "那样的稀奇传闻我还是第一次听说。"
+    },
+    "id": "builtin-ko-379395019d3a28511580",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "희한하다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-379395019d3a28511580.phrase.bcf469a94d2ad375.mp3",
+      "text": "희한한 일",
+      "translationZh": "稀奇的事；罕见的事"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602576,
+    "pronunciation": "히한하다",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "희한하다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "희한하다"
+      }
+    ],
+    "text": "희한하다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-379395019d3a28511580.word.bf6596c2862338b3.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to keep glancing sideways at something, to steal repeated quick looks",
+    "definitionKo": "고개를 돌려 옆을 자꾸 빠르게 흘깃흘깃 쳐다보다.",
+    "definitionZh": "屡次斜眼瞟，不停地偷瞄",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a256f143a5c67bed63ca.example.364beddbe81a9f04.mp3",
+      "text": "그는 시험 시간 내내 옆자리 친구의 답안지를 힐끔거렸다.",
+      "translationZh": "考试期间他一直不停地偷瞄旁边朋友的答卷。"
+    },
+    "id": "builtin-ko-a256f143a5c67bed63ca",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "힐끔거리다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a256f143a5c67bed63ca.phrase.9dd8fb31d0bc95a1.mp3",
+      "text": "옆을 힐끔거리다",
+      "translationZh": "不停地往旁边瞟"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602577,
+    "pronunciation": "힐끔거리다 [hil-kkŭm-gŏ-ri-da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "힐끔거리다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "힐끔거리다"
+      }
+    ],
+    "text": "힐끔거리다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-a256f143a5c67bed63ca.word.29f7fa257da66faf.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "glancingly; with a quick, brief look",
+    "definitionKo": "고개를 빠르게 돌려 잠깐 동안 곁눈으로 보는 모양",
+    "definitionZh": "瞥（一眼）；飞快地看一眼",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-09ad42a60e1e1809cf77.example.5c52b7081f439084.mp3",
+      "text": "그는 뒤에서 누가 부르는 것 같아 힐끗 뒤를 돌아보았다.",
+      "translationZh": "他好像听到后面有人叫他，便飞快地回头瞥了一眼。"
+    },
+    "id": "builtin-ko-09ad42a60e1e1809cf77",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "힐끗",
+    "partOfSpeech": "부사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-09ad42a60e1e1809cf77.phrase.9f34199889bb4951.mp3",
+      "text": "힐끗 돌아보다",
+      "translationZh": "瞥一眼；回头瞥一下"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602578,
+    "pronunciation": "힐끗 [hil.k͈ɯt̚]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "힐끗",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "힐끗"
+      }
+    ],
+    "text": "힐끗",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-09ad42a60e1e1809cf77.word.f7b09de03b10af78.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be hard and exhausting; to be burdensome and difficult to endure",
+    "definitionKo": "힘에 겨워 견디기 어렵고 버겁다",
+    "definitionZh": "艰难吃力；沉重费劲",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a59ab5f46de84cd3ff65.example.1dc791b34d9809ee.mp3",
+      "text": "매일 늦게까지 일하는 생활이 힘겹지만 가족을 생각하면 참을 만하다.",
+      "translationZh": "每天工作到很晚的生活很艰难，但一想到家人就能忍受。"
+    },
+    "id": "builtin-ko-a59ab5f46de84cd3ff65",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "힘겹다",
+    "partOfSpeech": "형용사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-a59ab5f46de84cd3ff65.phrase.7aa656f4caad4c39.mp3",
+      "text": "삶이 힘겹다",
+      "translationZh": "生活艰难"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602579,
+    "pronunciation": "힘겹다 [him.gyeop.da]",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "힘겹다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "힘겹다"
+      }
+    ],
+    "text": "힘겹다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-a59ab5f46de84cd3ff65.word.9d9f7e8efa4a3f7c.mp3"
+  },
+  {
+    "advanced": true,
+    "audioValidation": {
+      "example": {},
+      "phrase": {},
+      "word": {}
+    },
+    "contentStatus": "ready",
+    "definitionEn": "to be encouraged or supported by; to gain strength from",
+    "definitionKo": "어떤 도움이나 영향을 받아 힘을 얻다",
+    "definitionZh": "得益于；依靠……的支持和帮助",
+    "example": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-981983def5f6b85eebac.example.eced9bbac55d43c5.mp3",
+      "text": "팬들의 뜨거운 응원에 힘입어 우리 팀은 결국 경기에서 이겼다.",
+      "translationZh": "得益于粉丝们的热情应援，我们队最终赢得了比赛。"
+    },
+    "id": "builtin-ko-981983def5f6b85eebac",
+    "imageUrl": "",
+    "language": "ko",
+    "level": 6,
+    "normalizedText": "힘입다",
+    "partOfSpeech": "동사",
+    "phrase": {
+      "audioUrl": "/static/vocabulary/audio/ko/builtin-ko-981983def5f6b85eebac.phrase.441b5d3fdeb773b2.mp3",
+      "text": "성원에 힘입다",
+      "translationZh": "得益于大家的支持"
+    },
+    "primarySource": "topik-standard",
+    "priority": 602580,
+    "pronunciation": "힘입따",
+    "senseId": "",
+    "source": "builtin",
+    "sourceKey": "힘입다",
+    "sources": [
+      {
+        "license": "Public work free-use license; attribution required",
+        "name": "National Institute of Korean Language standard curriculum",
+        "sourceId": "힘입다"
+      }
+    ],
+    "text": "힘입다",
+    "wordAudioUrl": "/static/vocabulary/audio/ko/builtin-ko-981983def5f6b85eebac.word.153b2b75b7df1720.mp3"
+  }
+]

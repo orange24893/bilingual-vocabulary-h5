@@ -1,0 +1,311 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-lg $spacing-lg 0;
+  overflow: hidden;
+}
+
+.topBar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $spacing-md;
+}
+
+.languageLabel,
+.modeLabel {
+  display: block;
+}
+
+.languageLabel {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+}
+
+.modeLabel {
+  margin-top: 4rpx;
+  color: $color-text-secondary;
+  font-size: $font-size-xs;
+}
+
+.wordCounter {
+  color: $color-primary;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+}
+
+.progressTrack {
+  height: 8rpx;
+  flex-shrink: 0;
+  margin-bottom: $spacing-lg;
+  overflow: hidden;
+  border-radius: $radius-round;
+  background: $color-bg-hover;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: $radius-round;
+  background: $color-primary;
+  transition: width $transition-base;
+}
+
+.errorBanner {
+  flex-shrink: 0;
+  margin-bottom: $spacing-md;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $radius-md;
+  background: $color-accent-soft;
+  color: $color-error;
+  font-size: $font-size-sm;
+}
+
+.studyScroll {
+  min-height: 0;
+  flex: 1;
+}
+
+.wordCard {
+  margin-bottom: $spacing-lg;
+  overflow: hidden;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+  box-shadow: $shadow-card;
+}
+
+.imageWrap {
+  position: relative;
+  height: 320rpx;
+  background: $color-bg-hover;
+}
+
+.wordImage {
+  width: 100%;
+  height: 100%;
+}
+
+.imageFallback {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-sm;
+}
+
+.imageRetry {
+  @include button-reset;
+  padding: 8rpx 24rpx;
+  border: 1px solid $color-border;
+  border-radius: $radius-button;
+  color: $color-primary;
+  font-size: $font-size-xs;
+}
+
+.stepBadge {
+  position: absolute;
+  top: $spacing-md;
+  right: $spacing-md;
+  padding: 8rpx 16rpx;
+  border-radius: $radius-round;
+  background: rgba(32, 42, 37, 0.76);
+  color: $color-text-white;
+  font-size: $font-size-xs;
+}
+
+.content {
+  padding: $spacing-lg;
+}
+
+.stepContent {
+  min-height: 240rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: $spacing-lg;
+}
+
+.wordText {
+  font-size: 64rpx;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  overflow-wrap: anywhere;
+}
+
+.pronunciation {
+  margin-top: $spacing-sm;
+  color: $color-primary;
+  font-size: $font-size-md;
+}
+
+.definitionBlock {
+  margin-top: $spacing-lg;
+  padding-top: $spacing-md;
+  border-top: 1px solid $color-divider;
+}
+
+.definitionLabel,
+.sectionEyebrow,
+.resultEyebrow {
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  letter-spacing: 2rpx;
+}
+
+.definitionText,
+.translation {
+  display: block;
+  margin-top: $spacing-sm;
+  color: $color-text-secondary;
+  font-size: $font-size-md;
+  line-height: $line-height-loose;
+}
+
+.largeDefinition {
+  margin-top: $spacing-md;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-loose;
+}
+
+.phraseText,
+.exampleText {
+  margin-top: $spacing-md;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-loose;
+}
+
+.readingNote {
+  margin-bottom: $spacing-md;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-bg-page;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  text-align: center;
+}
+
+.primaryButton,
+.secondaryButton {
+  @include button-reset;
+  width: 100%;
+  height: $button-height-lg;
+  border-radius: $radius-button;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+  @include flex-center;
+}
+
+.primaryButton {
+  margin-top: $spacing-md;
+  background: $color-primary;
+  color: $color-text-white;
+
+  &[disabled] {
+    background: $color-bg-hover;
+    color: $color-text-tertiary;
+  }
+}
+
+.secondaryButton {
+  margin-top: $spacing-md;
+  border: 1px solid $color-border;
+  background: $color-bg-card;
+  color: $color-primary;
+}
+
+.ratingSection {
+  margin-top: $spacing-lg;
+}
+
+.ratingTitle {
+  display: block;
+  margin-bottom: $spacing-md;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+  text-align: center;
+}
+
+.ratingButtons {
+  display: flex;
+  gap: $spacing-sm;
+}
+
+.ratingButton {
+  @include button-reset;
+  min-width: 0;
+  height: 112rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rpx;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  background: $color-bg-card;
+
+  &[disabled] {
+    opacity: 0.45;
+  }
+}
+
+.ratingLabel {
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+}
+
+.ratingHint {
+  color: $color-text-tertiary;
+  font-size: 20rpx;
+}
+
+.rating_unknown {
+  color: $color-error;
+  background: $color-accent-soft;
+}
+
+.rating_fuzzy {
+  color: #80601f;
+  background: $color-sand-soft;
+}
+
+.rating_known {
+  color: $color-primary;
+  background: $color-mint-soft;
+}
+
+.resultCard {
+  margin: auto 0;
+  padding: 64rpx $spacing-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+  box-shadow: $shadow-card;
+  text-align: center;
+}
+
+.resultTitle {
+  margin-top: $spacing-md;
+  font-size: $font-size-xxl;
+  font-weight: $font-weight-bold;
+}
+
+.resultText {
+  margin: $spacing-md 0 $spacing-lg;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  line-height: $line-height-loose;
+}

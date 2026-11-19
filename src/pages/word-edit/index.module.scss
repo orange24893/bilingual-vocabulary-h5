@@ -1,0 +1,176 @@
+@use '@/styles/variables.scss' as *;
+
+.container {
+  min-height: 100vh;
+  padding: $spacing-lg;
+}
+
+.header {
+  margin-bottom: $spacing-lg;
+}
+
+.eyebrow {
+  display: block;
+  color: $color-primary;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-bold;
+  letter-spacing: 3rpx;
+}
+
+.title {
+  display: block;
+  margin-top: 4rpx;
+  font-size: $font-size-xxl;
+  font-weight: $font-weight-bold;
+}
+
+.subtitle {
+  display: block;
+  margin-top: $spacing-sm;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  line-height: $line-height-loose;
+}
+
+.errorBanner {
+  margin: $spacing-md 0;
+  padding: $spacing-md;
+  border-radius: $radius-md;
+  background: $color-accent-soft;
+  color: $color-error;
+  font-size: $font-size-sm;
+  line-height: $line-height-normal;
+}
+
+.formCard {
+  margin-top: $spacing-lg;
+  padding: $spacing-lg;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  background: $color-bg-card;
+  box-shadow: $shadow-card;
+}
+
+.field {
+  margin-bottom: $spacing-lg;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.label,
+.sectionTitle {
+  display: block;
+  margin-bottom: $spacing-sm;
+  color: $color-text-secondary;
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+}
+
+.sectionTitle {
+  color: $color-text-primary;
+  font-size: $font-size-lg;
+}
+
+.input,
+.wordInput,
+.textarea,
+.textareaLarge {
+  width: 100%;
+  padding: $spacing-md;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  background: $color-bg-page;
+  color: $color-text-primary;
+  font-size: $font-size-md;
+  line-height: $line-height-normal;
+}
+
+.input,
+.wordInput {
+  height: 84rpx;
+}
+
+.wordInput {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-semibold;
+}
+
+.textarea,
+.textareaLarge {
+  min-height: 144rpx;
+  height: auto;
+}
+
+.textareaLarge {
+  min-height: 200rpx;
+}
+
+.generateButton,
+.saveButton,
+.mediaButton {
+  @include button-reset;
+  width: 100%;
+  border-radius: $radius-button;
+  @include flex-center;
+}
+
+.generateButton,
+.saveButton {
+  height: $button-height-lg;
+  background: $color-primary;
+  color: $color-text-white;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+
+  &[disabled] {
+    background: $color-bg-hover;
+    color: $color-text-tertiary;
+  }
+}
+
+.mediaButton {
+  height: $button-height-sm;
+  margin-top: $spacing-sm;
+  border: 1px solid $color-border;
+  background: transparent;
+  color: $color-primary;
+  font-size: $font-size-xs;
+
+  &[disabled] {
+    color: $color-text-tertiary;
+  }
+}
+
+.divider {
+  height: 1px;
+  margin: $spacing-lg 0;
+  background: $color-divider;
+}
+
+.previewImage,
+.imagePlaceholder {
+  width: 100%;
+  height: 340rpx;
+  border-radius: $radius-md;
+  background: $color-bg-hover;
+}
+
+.imagePlaceholder {
+  color: $color-text-tertiary;
+  font-size: $font-size-sm;
+  @include flex-center;
+}
+
+.saveBar {
+  padding: $spacing-lg 0 48rpx;
+}
+
+.saveHint {
+  display: block;
+  margin-bottom: $spacing-sm;
+  color: $color-text-tertiary;
+  font-size: $font-size-xs;
+  text-align: center;
+}
