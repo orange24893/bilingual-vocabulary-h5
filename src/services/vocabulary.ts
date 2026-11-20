@@ -1,10 +1,11 @@
 import { SEED_WORDS as LEGACY_WORDS } from '../data/seed'
 import type { Language, VocabularyManifest, Word, WordIndexEntry } from '../types/word'
 import { normalizeWord } from '../utils/wordbook.cjs'
-import { sortIndexEntries } from '../utils/vocabulary.cjs'
+import { resolveWordAssets, sortIndexEntries } from '../utils/vocabulary.cjs'
 import { loadCustomWords } from './storage'
 
-const ROOT = '/static/vocabulary/data'
+const ASSET_ROOT = process.env.TARO_APP_VOCABULARY_ROOT || '/static/vocabulary'
+const ROOT = `${ASSET_ROOT}/data`
 const indexCache = new Map<Language, Promise<WordIndexEntry[]>>()
 const chunkCache = new Map<string, Promise<Word[]>>()
 let manifestPromise: Promise<VocabularyManifest> | undefined
@@ -62,7 +63,7 @@ export async function loadIndexEntries(language: Language): Promise<WordIndexEnt
 function loadChunk(chunkFile: string): Promise<Word[]> {
   let current = chunkCache.get(chunkFile)
   if (!current) {
-    current = fetchJson<Word[]>(chunkFile)
+    current = fetchJson<Word[]>(chunkFile).then(words => words.map(word => resolveWordAssets(word, ASSET_ROOT)))
     chunkCache.set(chunkFile, current)
   }
   return current

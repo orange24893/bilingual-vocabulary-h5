@@ -2,7 +2,7 @@ const test = require('node:test')
 const assert = require('node:assert/strict')
 const fs = require('node:fs')
 const path = require('node:path')
-const { paginate, repairSession, sortIndexEntries } = require('../src/utils/vocabulary.cjs')
+const { paginate, repairSession, resolveVocabularyUrl, resolveWordAssets, sortIndexEntries } = require('../src/utils/vocabulary.cjs')
 const { buildDailyQueue } = require('../src/utils/scheduler.cjs')
 
 test('stable sorting uses priority, normalized text and ID', () => {
@@ -70,4 +70,30 @@ test('H5 build copies the published static vocabulary into its output directory'
   assert.match(source, /path\.resolve\(chain\.output\.get\('path'\), 'static'\)/)
   assert.match(source, /import path from 'node:path'/)
   assert.doesNotMatch(source, /to:\s*path\.resolve\(process\.env\.TARO_OUTPUT_DIR/)
+})
+
+test('CDN asset resolution rewrites all three built-in audio URLs without mutation', () => {
+  const root = 'https://cdn.example/vocabulary'
+  const word = {
+    id: 'builtin-en-ready',
+    wordAudioUrl: '/static/vocabulary/audio/en/ready.word.mp3',
+    phrase: { text: 'ready now', audioUrl: '/static/vocabulary/audio/en/ready.phrase.mp3' },
+    example: { text: 'I am ready.', audioUrl: '/static/vocabulary/audio/en/ready.example.mp3' }
+  }
+  const resolved = resolveWordAssets(word, root)
+  assert.equal(resolveVocabularyUrl(root, word.wordAudioUrl), `${root}/audio/en/ready.word.mp3`)
+  assert.equal(resolved.wordAudioUrl, `${root}/audio/en/ready.word.mp3`)
+  assert.equal(resolved.phrase.audioUrl, `${root}/audio/en/ready.phrase.mp3`)
+  assert.equal(resolved.example.audioUrl, `${root}/audio/en/ready.example.mp3`)
+  assert.equal(resolved.phrase.text, 'ready now')
+  assert.equal(word.wordAudioUrl, '/static/vocabulary/audio/en/ready.word.mp3')
+  assert.equal(resolveVocabularyUrl(root, '/assets/custom.mp3'), '/assets/custom.mp3')
+})
+
+test('production CDN root is configurable and applied to loaded chunks', () => {
+  const config = fs.readFileSync(path.join(__dirname, '../config/index.ts'), 'utf8')
+  const service = fs.readFileSync(path.join(__dirname, '../src/services/vocabulary.ts'), 'utf8')
+  assert.match(config, /'process\.env\.TARO_APP_VOCABULARY_ROOT':\s*JSON\.stringify\(process\.env\.TARO_APP_VOCABULARY_ROOT \|\| ''\)/)
+  assert.match(service, /process\.env\.TARO_APP_VOCABULARY_ROOT \|\| '\/static\/vocabulary'/)
+  assert.match(service, /resolveWordAssets\(word, ASSET_ROOT\)/)
 })

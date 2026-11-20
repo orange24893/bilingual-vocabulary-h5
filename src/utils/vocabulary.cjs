@@ -33,4 +33,19 @@ function repairSession(session, validIds) {
   }
 }
 
-module.exports = { paginate, repairSession, sortIndexEntries }
+function resolveVocabularyUrl(root, url) {
+  const prefix = '/static/vocabulary/'
+  if (!url.startsWith(prefix)) return url
+  return `${root.replace(/\/+$/, '')}/${url.slice(prefix.length)}`
+}
+
+function resolveWordAssets(word, root) {
+  return {
+    ...word,
+    wordAudioUrl: resolveVocabularyUrl(root, word.wordAudioUrl),
+    phrase: { ...word.phrase, audioUrl: resolveVocabularyUrl(root, word.phrase.audioUrl) },
+    example: { ...word.example, audioUrl: resolveVocabularyUrl(root, word.example.audioUrl) }
+  }
+}
+
+module.exports = { paginate, repairSession, resolveVocabularyUrl, resolveWordAssets, sortIndexEntries }

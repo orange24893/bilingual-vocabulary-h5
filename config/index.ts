@@ -19,7 +19,9 @@ export default defineConfig<'webpack5'>(async (merge, { command, mode }) => {
     sourceRoot: 'src',
     outputRoot: process.env.TARO_OUTPUT_DIR || 'dist',
     plugins: ['@tarojs/plugin-html'],
-    defineConstants: {},
+    defineConstants: {
+      'process.env.TARO_APP_VOCABULARY_ROOT': JSON.stringify(process.env.TARO_APP_VOCABULARY_ROOT || ''),
+    },
     copy: {
       patterns: [
         { from: 'public/static', to: 'static' },
